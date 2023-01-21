@@ -5,7 +5,7 @@ const configDefinicao = function () {
         console.log(options[i].value)
 
         document.getElementById(`option_${i}`).addEventListener('click', () => {
-            window.location.href = `../../pages/pontuacao.html?opcao=${options[i].value}`
+            window.location.href = `../pages/pontuacao.html?opcao=${options[i].value}`
             console.log(options[i].value)
         })
     }
