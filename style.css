@@ -108,8 +108,8 @@ main {
 }
 
 #main_point {
-    width: 99vw;
-    gap: 12px;
+    width: 95vw;
+    gap: 8px;
 }
 
 footer {
@@ -146,8 +146,8 @@ footer {
 }
 
 .pontuacao span {
-    font-size: 2.2rem;
-    font-weight: 400;
+    font-size: 5rem;
+    font-weight: 500;
 }
 
 .pontos, .reload {
