@@ -51,7 +51,7 @@ const contadorPontos = function() {
     
             const pontos01 = document.getElementById(`pontos_1`).innerHTML
             const pontos02 = document.getElementById(`pontos_2`).innerHTML
-        
+
             if (pontos01 == config - 1 && pontos02 == config - 1)
                 config += 1
 
@@ -67,7 +67,11 @@ const contadorPontos = function() {
             
             let pontuacao = parseInt(contador) - 1
             
-            tagContador.textContent = pontuacao
+            if (pontuacao < 0)
+                tagContador.textContent = '0'
+            
+            else
+                tagContador.textContent = pontuacao
         })
     }
 }
