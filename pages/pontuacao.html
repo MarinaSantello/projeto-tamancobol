@@ -4,16 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
     <script src="../js/pontos.js" defer type="module"></script>
     <title>Contagem pontuação</title>
 </head>
 <body>
-    <header>
-        <div class="icon"></div>
-    </header>
-
-    <main>
+    <main id="main_point">
         <div class="dados__participantes">
             <div class="nomes" id="nomes"></div>
 
@@ -42,15 +39,17 @@
     </main>
     
     <footer>
-        <div class="timer" id="timer">
-            <span class="minutes" id="minutes">00</span>
-            :
-            <span class="seconds" id="seconds">00</span>
-        </div>
-        
-        <button class="start__timer" id="start_timer">Iniciar</button>
+            <div class="timer" id="timer">
+                <span class="clock" id="minutes">00</span>
+                <span class="clock">:</span>
+                <span class="clock" id="seconds">00</span>
+            </div>
 
-        <button class="finish" id="finish">Finalizar partida</button>
+        <div class="control__buttons">
+            <button class="start__timer" id="start_timer">Iniciar</button>
+
+            <button class="finish" id="finish">Finalizar partida</button>
+        </div>
     </footer>
 </body>
 </html>

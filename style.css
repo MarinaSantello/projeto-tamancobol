@@ -12,9 +12,17 @@ header {
     justify-content: center;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    font-size: 1.1rem;
+}
+
 .icon {
-    width: 44px;
-    height: 44px;
+    width: 58px;
+    height: 58px;
     background: url(./img/clogs.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,6 +39,8 @@ header {
 .titulo {
     text-align: center;
     text-transform: uppercase;
+    color: #132a13;
+    font-weight: 800;
 }
 
 .dados__participantes {
@@ -45,4 +55,152 @@ header {
     height: 24px;
     font-size: 18px;
     color: #386641;
+    border: none;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.start {
+    background-color: #bc4749;
+    border: none;
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 24px;
+}
+
+.select__options {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.opcao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.option__module {
+    width: 70%;
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    background-color: #6a994e;
+}
+
+.detalhes {
+    font-weight: 100;
+    font-size: .85rem;
+}
+
+#main_point {
+    width: 99vw;
+    gap: 12px;
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.dados__participantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.nomes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nome__participante {
+    color: #132a13;
+    font-size: 1.35rem;
+    font-weight: 300;
+}
+
+.pontuacao {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pontuacao span {
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.pontos, .reload {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.point {
+    width: 40%;
+    height: 100%;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    background-color: #bc4749;
+    border: none;
+    border-radius: 36px;
+    padding: 36px;
+}
+
+.reload {
+    height: auto;
+}
+
+.refresh {
+    font-size: 1.5rem;
+    border: none;
+    background-color: #a7c957;
+    color: #132a13;
+    border-radius: 24px;
+    padding: 4px 12px 4px 12px;
+}
+
+.control__buttons {
+    display: flex;
+    gap: 40px;
+}
+
+.clock {
+    font-size: 1.55rem;
+    font-weight: 500;
+}
+
+.start__timer, .finish {
+    width: 25vw;
+    background-color: #6a994e;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
 }
