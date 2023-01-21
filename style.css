@@ -1,0 +1,48 @@
+body {
+    background-color: #f2e8cf;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 44px;
+    height: 44px;
+    background: url(./img/clogs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dados__participantes {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    gap: 8px;
+}
+
+.nome {
+    width: 100%;
+    height: 24px;
+    font-size: 18px;
+    color: #386641;
+}

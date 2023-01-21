@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../js/pontos.js" defer type="module"></script>
+    <title>Contagem pontuação</title>
+</head>
+<body>
+    <header>
+        <div class="icon"></div>
+    </header>
+
+    <main>
+        <div class="dados__participantes">
+            <div class="nomes" id="nomes"></div>
+
+            <div class="pontuacao" id="pontuacao">
+                <span class="pontos__1" id="pontos_1">0</span>
+
+                <span class="pontos__2" id="pontos_2">0</span>
+            </div>
+        </div>
+
+        <div class="pontos">
+            <button class="point" id="for_2"></button>
+
+            <button class="point" id="for_1"></button>
+        </div>
+
+        <div class="reload">
+            <button class="refresh" id="refresh_2">
+                &#10227;
+            </button>
+
+            <button class="refresh" id="refresh_1">
+                &#10226;
+            </button>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="timer" id="timer">
+            <span class="minutes" id="minutes">00</span>
+            :
+            <span class="seconds" id="seconds">00</span>
+        </div>
+        
+        <button class="start__timer" id="start_timer">Iniciar</button>
+
+        <button class="finish" id="finish">Finalizar partida</button>
+    </footer>
+</body>
+</html>
